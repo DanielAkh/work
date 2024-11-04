@@ -17,3 +17,22 @@ p {
 	line-height: 1.8;
 }
 
+header nav a {
+	color: #676770;
+	font-size: 16px;
+	transition: color 0.2s;
+}
+
+header nav a:hover {
+	color: #0082f3;
+}
+
+header nav a:active {
+	color: #0062b6;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
