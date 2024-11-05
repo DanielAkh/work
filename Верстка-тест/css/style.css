@@ -37,6 +37,10 @@ header nav a:active {
 	align-items: center;
 }
 
+header {
+	padding: 10px 0;
+}
+
 header nav ul { 
 	display: flex;
 }
@@ -46,6 +50,20 @@ header nav ul li + li {
 }
 
 .logo img {
-	width: 70px;
-	margin: 5px 0;
+	width: 60px;
 }
+
+section.welcome {
+	color: #fff;
+	min-height: 550px;
+	padding: 150px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #676770;
+	background-image: url("../img/velocity.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
