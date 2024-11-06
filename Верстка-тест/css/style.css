@@ -39,6 +39,7 @@ header nav a:active {
 
 header {
 	padding: 10px 0;
+	min-height: 101px; 
 }
 
 header nav ul { 
@@ -56,14 +57,20 @@ header nav ul li + li {
 section.welcome {
 	color: #fff;
 	min-height: 550px;
+	height: calc(100vh - 101px);
 	padding: 150px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #676770;
-	background-image: url("../img/night_way.jpg"); 
-	background-size: cover;
-	background-position: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+    url("../img/night_way.jpg") center/cover;
+}
+
+.welcome h1 {
+	font-size: 60px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
