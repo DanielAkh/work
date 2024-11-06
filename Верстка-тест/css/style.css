@@ -62,7 +62,7 @@ section.welcome {
 	align-items: center;
 	text-align: center;
 	background-color: #676770;
-	background-image: url("../img/night_way.jpg");
+	background-image: url("../img/night_way.jpg"); 
 	background-size: cover;
 	background-position: center;
 }
