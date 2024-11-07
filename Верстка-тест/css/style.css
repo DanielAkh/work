@@ -72,6 +72,7 @@ section.welcome {
 	line-height: 1;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	margin-bottom: 100px;
 }
 
 .link-primary {
@@ -90,6 +91,27 @@ section.welcome {
 	text-transform: uppercase;
 	display: inline-block;
 	border-radius: 4px;
+	transition: background-color 0.2s, border-color 0.2s;
+}
+
+.links > * + * {
+	margin-left: 20px;
+}
+
+.link-primary:hover {
+	background-color: #7cc2ff;
+}
+
+.link-primary:active {
+	background-color: #0f8fff;
+}
+
+.link:hover {
+	border-color: #7cc2ff;
+}
+
+.link:active {
+	border-color: #0f8fff;
 }
 
 
