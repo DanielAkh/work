@@ -114,8 +114,58 @@ section.welcome {
 	border-color: #0f8fff;
 }
 
-.card img {
-	width: 50px;
+.common__section {
+	text-align: center;
+	padding: 80px 0;
+}
+
+.title {
+	font-size: 30px;
+	line-height: 1.2;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #676770;
+	margin-bottom: 17px;
+}
+
+.subtitle {
+	font-size: 17px;
+	line-height: 1.2;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #8e8e9c;
+}
+
+.title__wrapper {
+	margin-bottom: 60px;
+}
+
+.info__block-1 .cards__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info__block-1 .cards__wrapper .card {
+	width: 300px;
+	border: 1px solid #dcebf7;
+	border-radius: 5px;
+	padding: 30px 17px 25px 17px;
+}
+
+.info__block-1 .card img {
+	width: 94px;
+	height: 94px;
+	object-fit: contain;
+	margin-bottom: 20px;
+}
+
+.info__block-1 .card h3 {
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	color: #676770;
+	margin-bottom: 15px;
 }
 
 
