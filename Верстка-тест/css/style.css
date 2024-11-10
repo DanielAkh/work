@@ -165,7 +165,30 @@ section.welcome {
 	letter-spacing: 7px;
 	text-transform: uppercase;
 	color: #676770;
-	margin-bottom: 15px;
+	margin-bottom: 15px; 
 }
+
+.common__section--dark * {
+	color: #fff;
+}
+
+.common__section--dark {
+	background-color: #192024;
+}
+
+.common__section--dark .subtitle {
+	color: #e8e8e8;
+}
+
+.info__block-2 .cards__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info__block-2 .card {
+	width: 45%;
+}
+
+
 
 
