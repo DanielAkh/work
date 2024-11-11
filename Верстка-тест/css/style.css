@@ -189,6 +189,24 @@ section.welcome {
 	width: 45%;
 }
 
+.info__block-2 .card img {
+	margin-bottom: 20px;
+	height: calc(50% - 20px);
+}
+
+.info__block-2 .card h3 {
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.info__block-2 .card .links {
+	margin-top: 15px;
+}
+
+
 
 
 
