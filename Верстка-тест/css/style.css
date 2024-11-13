@@ -178,7 +178,7 @@ section.welcome {
 
 .common__section--dark .subtitle {
 	color: #e8e8e8;
-}
+} 
 
 .info__block-2 .cards__wrapper {
 	display: flex;
@@ -236,9 +236,16 @@ section.welcome {
 	margin-bottom: 15px;
 }
 
-.tabs__item img h3 {
+.tabs__item h3 {
 	font-size: 31px;
-	
+	line-height: 1.2;
+	color: #676770;
+	margin-bottom: 15px;
+}
+
+.tabs__desk {
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 
